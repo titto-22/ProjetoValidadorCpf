@@ -143,8 +143,6 @@ npx eas build -p android --profile development
 
 Após a conclusão, será gerado um link de download do `.apk`.
 
----
----
 
 ## 📂 Keystore
 
