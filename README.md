@@ -138,7 +138,7 @@ Preencha:
 ### 2. Rodar build:
 
 ```bash
-npx eas build -p android --profile production
+npx eas build -p android --profile development
 ```
 
 Após a conclusão, será gerado um link de download do `.apk`.
