@@ -144,13 +144,6 @@ npx eas build -p android --profile development
 Após a conclusão, será gerado um link de download do `.apk`.
 
 ---
-
-## ✅ Testar o microsserviço com PowerShell
-
-```powershell
-Invoke-RestMethod -Uri http://SEU_IP_LOCAL:3333/validar-cpf -Method POST -Body '{"cpf":"12345678909"}' -ContentType "application/json"
-```
-
 ---
 
 ## 📂 Keystore
