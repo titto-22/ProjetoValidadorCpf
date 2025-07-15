@@ -40,6 +40,6 @@ app.post('/validar-cpf', (req, res) => {
 });
 
 // Escutar em todas interfaces (0.0.0.0) na porta 3333
-app.listen({ port: 3333, host: '192.168.1.14' }, () => {
-  console.log(' Microsserviço rodando em http://192.168.1.14:3333');
+app.listen({ port: 3333, host: '192.168.61.113' }, () => {
+  console.log(' Microsserviço rodando em http://192.168.61.113:3333');
 });
